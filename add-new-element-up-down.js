@@ -1,7 +1,7 @@
 function addNewElement(array, element, position) {
-  if (position === 'up') {
+  if(position === 'up') {
     array.unshift(element);
-  } else if (position === 'down') {
+  } else if(position === 'down') {
     array.push(element);
   }
   return array;
